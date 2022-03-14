@@ -1,0 +1,182 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 auto;
+  line-height: 2em;
+  padding: 0 12px;
+  box-sizing: border-box;
+  color: #818999;
+  overflow: auto;
+  background: #05070b;
+  background: linear-gradient(180deg, #05070b 0, #17171d);
+  background-attachment: fixed;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.wrapper::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  width: 100vw;
+  height: 100vw;
+  background-image: radial-gradient(circle at center, #32333f 0, rgba(50, 51, 63, 0) 66.66%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.demo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.intro {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.octocat {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  transition: top 0.3s ease;
+}
+
+.octocat:hover {
+  top: 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 60px;
+}
+
+.heading {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #818999;
+}
+
+a:hover {
+  color: #fff;
+}
+
+p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 50px 12px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+article {
+  padding: 60px 0;
+  text-align: center;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.meta {
+  text-transform: uppercase;
+  font-family: Arial, Courier New, Source Sans Pro, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+
+.inline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+header {
+  flex: 0 0 auto;
+}
+
+footer .inline-list li {
+  margin-right: 40px;
+}
+
+footer {
+  padding: 40px 0 0 0;
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 50px;
+  margin-top: 60px;
+  border-radius: 20px;
+  color: #333;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    padding: 30px;
+  }
+}
+
+.table-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table {
+  width: 1000px;
+  border-collapse: collapse;
+  border: 1px solid #dbdde2;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #c5c8d0;
+}
+
+tr {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dbdde2;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f2f5;
+}
+
+tr:last-child {
+  border: 0;
+}

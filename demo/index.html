@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Demo | Table Scroll Shadow</title>
+    <link rel="stylesheet" href="../dist/table-scroll-shadow.min.css" />
+    <link rel="stylesheet" href="demo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <a href="https://github.com/gauthierblanpain/table-scroll-shadow" target="_blank" class="octocat"
+            ><img src="images/octocat.png" alt="Github" width="60"
+          /></a>
+        </header>
+        <article>
+          <div class="demo">
+            <div class="intro">
+              <img src="images/logo.png" class="logo" alt="Table Scroll Shadow" width="150" />
+              <p>
+                A simple dependency-free Javascript plugin to show horizontal overflow of tables
+              </p>
+            </div>
+            <div class="card">
+              <div class="table-wrapper">
+                <div class="table-scroll">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>$170,750</td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>$86,000</td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>$433,060</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <footer>
+          <ul class="meta inline-list">
+            <li>
+              <a href="mailto:gauthier.blanpain@me.com">gauthier.blanpain@me.com</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/gauthier-blanpain-05b9a394/" target="_blank">linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/gauthierblanpain" target="_blank">github/gauthierblanpain</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <script src="../dist/table-scroll-shadow.min.js"></script>
+    <script>
+      document.addEventListener(
+        'DOMContentLoaded',
+        function () {
+          const table = new TableScrollShadow({
+            shadowColor: 'rgba(0, 0, 0, 0.25)',
+            throttleDelay: 100
+          })
+          table.init()
+        },
+        false
+      )
+    </script>
+  </body>
+</html>
