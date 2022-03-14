@@ -149,7 +149,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -175,6 +175,6 @@ Project Link: [https://github.com/gauthierblanpain/table-scroll-shadow](https://
 [issues-shield]: https://img.shields.io/github/issues/gauthierblanpain/table-scroll-shadow.svg?style=for-the-badge
 [issues-url]: https://github.com/gauthierblanpain/table-scroll-shadow/issues
 [license-shield]: https://img.shields.io/github/license/gauthierblanpain/table-scroll-shadow.svg?style=for-the-badge
-[license-url]: https://github.com/gauthierblanpain/table-scroll-shadow/LICENSE
+[license-url]: https://github.com/gauthierblanpain/table-scroll-shadow/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/gauthier-blanpain-05b9a394/
