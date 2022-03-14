@@ -175,6 +175,6 @@ Project Link: [https://github.com/gauthierblanpain/table-scroll-shadow](https://
 [issues-shield]: https://img.shields.io/github/issues/gauthierblanpain/table-scroll-shadow.svg?style=for-the-badge
 [issues-url]: https://github.com/gauthierblanpain/table-scroll-shadow/issues
 [license-shield]: https://img.shields.io/github/license/gauthierblanpain/table-scroll-shadow.svg?style=for-the-badge
-[license-url]: https://github.com/gauthierblanpain/table-scroll-shadow/LICENSE.md
+[license-url]: https://github.com/gauthierblanpain/table-scroll-shadow/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/gauthier-blanpain-05b9a394/
