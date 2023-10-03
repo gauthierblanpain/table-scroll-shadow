@@ -4,7 +4,7 @@
   "description": "A simple dependency-free Javascript plugin to show horizontal overflow of tables",
   "main": "dist/table-scroll-shadow.min.js",
   "repository": {
-    "url": "https://gauthierblanpain.github.io/table-scroll-shadows",
+    "url": "https://gauthierblanpain.github.io/table-scroll-shadow",
     "type": "git"
   },
   "author": "Gauthier Blanpain <gauthier.blanpain@me.com>",
