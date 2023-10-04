@@ -1,6 +1,6 @@
 {
   "name": "table-scroll-shadow",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "description": "A simple dependency-free Javascript plugin to show horizontal overflow of tables",
   "main": "dist/table-scroll-shadow.min.js",
   "repository": {
